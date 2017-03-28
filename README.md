@@ -43,10 +43,10 @@
    Bootstrap.php   每一个请求开始执行时候，Bootstrap中每一个以_init开头的方法，会依次调用
 
 3.config存放配置文件
-   main.php             存放主要配置信息，任何环境都会使用这个配置
-   development.php      存放开发环境配置信息，开发环境会使用这个配置，并且与main.php合并（环境变量MOD_ENV = DEVELOPMENT）
-   production.php       存放开生产境配置信息，生产环境会使用这个配置，并且与main.php合并（环境变量MOD_ENV = PRODUCTION时）
-   test.php             存放测试环境配置信息，测试环境会使用这个配置，并且与main.php合并（环境变量MOD_ENV = TEST）
+   main.php         存放主要配置信息，任何环境都会使用这个配置
+   development.php  存放开发环境配置信息，开发环境会使用这个配置，并且与main.php合并（环境变量MOD_ENV = DEVELOPMENT）
+   production.php   存放开生产境配置信息，生产环境会使用这个配置，并且与main.php合并（环境变量MOD_ENV = PRODUCTION时）
+   test.php         存放测试环境配置信息，测试环境会使用这个配置，并且与main.php合并（环境变量MOD_ENV = TEST）
 
 4.library中 存放类库，第三方资源等
 
