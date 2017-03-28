@@ -5,7 +5,7 @@
 ### Alpaca-PHP-2.0 简介
 
 &emsp;&emsp;Alpaca-PHP 是一款轻量的PHP-MVC框架，确切的说应该是一款MC框架，因为在2.0版本中，去掉了view层，只提供控制器，模型业务逻辑层。
-默认情况下，每一个请求返回一个josn数据。Alpaca-PHP框架支持composer，使用Laravel-DB（illuminate/database）作为数据库访问层。同时支持有命名
+默认情况下，每一个请求返回一个json数据。Alpaca-PHP框架支持composer，使用Laravel-DB（illuminate/database）作为数据库访问层。同时支持有命名
 空间，无命名空间两种格式。方便集成各种类库、第三方资源。
 
 
